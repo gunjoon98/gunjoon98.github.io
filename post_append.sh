@@ -1,17 +1,15 @@
 #!/bin/bash
 bundle exec jekyll build
-rm -r dlans321.github.io/*
-cp -r _site/* dlans321.github.io/
 
-cd dlans321.github.io/
+cd ../cache/
+git rm -r *
+cp ../blog/_site/* .
 git add *
-git add -u
 git commit -m "commit"
 git push
 
-cd ..
+cd ../blog/
 git add *
-git add -u
 git commit -m "commit"
 git push
 
