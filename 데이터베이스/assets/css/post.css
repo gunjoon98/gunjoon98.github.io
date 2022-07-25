@@ -1,0 +1,35 @@
+.post-night-sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.post-header a { 
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.3em 0.6em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #febf00;
+}
+.post-title { 
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 150%; 
+    letter-spacing: 5px;
+    color: #fff;
+    margin: 0;
+}
+.post-meta { color: #fff; font-size: 0.9em; }
+.post-section { margin: 100px 0;}
