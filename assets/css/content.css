@@ -1,0 +1,17 @@
+#content {
+    margin: 0 0 0 260px;
+    font-family: 'JejuGothic';
+    font-size: 16px;
+    line-height: 150%;
+    transition: 0.5s ease;
+}
+
+#content-inner { 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+
+
