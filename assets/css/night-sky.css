@@ -20,19 +20,19 @@
 }
 
 .stars {
-    background:#000 url("/assets/image/stars.png") repeat top center;
+    background:#000 url("/assets/image/site/stars.png") repeat top center;
     z-index:0;
 }
 
 
 .twinkling {
-    background:transparent url("/assets/image/twinkling.png") repeat top center;
+    background:transparent url("/assets/image/site/twinkling.png") repeat top center;
     z-index:1;
     animation:move-twink-back 200s linear infinite;
 }
 
 .clouds{
-    background:transparent url("/assets/image/clouds.png") repeat top center;
+    background:transparent url("/assets/image/site/clouds.png") repeat top center;
     z-index: 2;
     opacity: .4;
     animation:move-clouds-back 200s linear infinite;
