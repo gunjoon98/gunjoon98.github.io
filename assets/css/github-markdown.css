@@ -1047,3 +1047,33 @@
   border-width: 0 0 0 2px;
   border-left: 4px solid #febf00;
 }
+
+.markdown-body .img_verylarge {
+  width: 800px;
+  height: 600px;
+}
+
+.markdown-body .img_large {
+  width: 700px;
+  height: 500px;
+}
+
+.markdown-body .img_middle_up {
+  width: 600px;
+  height: 400px;
+}
+
+.markdown-body .img_middle {
+  width: 500px;
+  height: 300px;
+}
+
+.markdown-body .img_small {
+  width: 400px;
+  height: 300px;
+}
+
+.markdown-body .img_verysmall {
+  width: 300px;
+  height: 200px;
+}
