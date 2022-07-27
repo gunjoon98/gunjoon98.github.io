@@ -2,6 +2,7 @@
 bundle exec jekyll build
 
 cd ../cache/
+git pull
 git rm -r *
 cp -r ../blog/_site/* .
 git add .
