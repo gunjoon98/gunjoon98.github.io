@@ -101,7 +101,7 @@
   color: var(--color-fg-default);
   background-color: var(--color-canvas-default);
   /*font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";*/
-  /*font-size: 16px;*/
+  /*font-size: 17px;
   /*line-height: 1.5;*/
   word-wrap: break-word;
 }
@@ -1036,44 +1036,24 @@
 }
 
 /* === 추가/변경 === */
-.markdown-body ul {
-  list-style: disc outside none;
-}
 
 .markdown-body h2 {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 30px;
   padding: 5px 15px;
   border-width: 0 0 0 2px;
   border-left: 4px solid #febf00;
 }
 
-.markdown-body .img_verylarge {
-  width: 800px;
-  height: 600px;
+.markdown-body h5 {
+  font-size: 0.9em;
+  font-weight: normal;
+  text-align: center;
+  margin: 10px 0 30px 0;
+  color: #808080;
 }
 
-.markdown-body .img_large {
-  width: 700px;
-  height: 500px;
-}
-
-.markdown-body .img_middle_up {
-  width: 600px;
-  height: 400px;
-}
-
-.markdown-body .img_middle {
-  width: 500px;
-  height: 300px;
-}
-
-.markdown-body .img_small {
-  width: 400px;
-  height: 300px;
-}
-
-.markdown-body .img_verysmall {
-  width: 300px;
-  height: 200px;
+.markdown-body img {
+  display: block;
+  margin: 0 auto;
 }
